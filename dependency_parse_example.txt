@@ -1,0 +1,12 @@
+Sentence: The quick brown fox jumps over the lazy dog.
+Tokens:
+The	DEP:det	HEAD:fox	POS:DET	CHILDREN:[]
+quick	DEP:amod	HEAD:fox	POS:ADJ	CHILDREN:[]
+brown	DEP:amod	HEAD:fox	POS:ADJ	CHILDREN:[]
+fox	DEP:nsubj	HEAD:jumps	POS:NOUN	CHILDREN:['The', 'quick', 'brown']
+jumps	DEP:ROOT	HEAD:jumps	POS:VERB	CHILDREN:['fox', 'over', '.']
+over	DEP:prep	HEAD:jumps	POS:ADP	CHILDREN:['dog']
+the	DEP:det	HEAD:dog	POS:DET	CHILDREN:[]
+lazy	DEP:amod	HEAD:dog	POS:ADJ	CHILDREN:[]
+dog	DEP:pobj	HEAD:over	POS:NOUN	CHILDREN:['the', 'lazy']
+.	DEP:punct	HEAD:jumps	POS:PUNCT	CHILDREN:[]
