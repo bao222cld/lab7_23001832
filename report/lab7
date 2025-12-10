@@ -44,7 +44,7 @@
 
 ## 2. Cách chạy code và thu log kết quả
 
-1. Tạo Notebook Google Colab → dán các cell code theo thứ tự.  
+1. Mở Notebook Google Colab 23001832_Lab07.ipnyb
 2. Chạy cell cài đặt model.  
 3. Chạy cell định nghĩa hàm.  
 4. Chạy cell demo cuối cùng.  
@@ -93,7 +93,6 @@ Hàm `extract_svo_triples()` hoạt động chính xác với cấu trúc đơn 
 ### 3) Noun-chunk tùy chỉnh không bao quát 100%
 - Một số cấu trúc như “of-phrase” hoặc apposition chưa xử lý.  
 - Giải pháp: giới hạn theo yêu cầu lab (không mở rộng thêm).
-
 ---
 
 ## 5. Nguồn tham khảo
@@ -121,6 +120,5 @@ Bài thực hành đã triển khai đầy đủ pipeline phân tích cú pháp 
 - Trích xuất thông tin (SVO, noun-chunk, amod,…)
 - Phân tích cấu trúc dependency tree
 
-Toàn bộ yêu cầu trong tài liệu lab đã được hoàn thành chính xác.
 
 
